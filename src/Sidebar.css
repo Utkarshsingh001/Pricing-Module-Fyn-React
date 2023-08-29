@@ -1,0 +1,22 @@
+.sidebar{
+    background-color: rgb(251, 247, 247);
+    border-top: 1px;
+    max-width: 250px;
+    height: 100vh;
+}
+
+.sidebar__header{
+
+    padding-bottom: 10px;
+    padding: 13px;
+
+}
+
+.sidebar__info>button{
+    display: block;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 0;
+    margin-right: 0;
+}

@@ -1,0 +1,26 @@
+.dashscreen{
+    margin-top: 75px;
+    margin-left: 20px;
+
+}
+
+.dashscreen__container{
+    height: 100vh;
+    width: 100vw;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
