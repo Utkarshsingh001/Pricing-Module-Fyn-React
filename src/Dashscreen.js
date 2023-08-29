@@ -35,7 +35,7 @@ function Dashscreen({grossrevenue ,totalrides,aov,ridesData}) {
             <div className='header__values' style={{display:'flex',marginBottom:30,justifyContent:'space-evenly',marginRight:200,marginTop:40}}>
                 <div className='header__valuesGR'>
                     <h4>Gross Revenue</h4>
-                    <h1>₹{grossrevenue}</h1>
+                    <h1>₹{grossrevenue.toFixed(2)}</h1>
                     <h6>+215% from last month</h6>
                 </div>
                 <hr/>
